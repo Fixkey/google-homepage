@@ -1,0 +1,168 @@
+body {
+  font-family: arial, sans-serif;
+}
+
+main {
+  margin-top: 15em;
+}
+
+.center {
+  text-align: center;
+}
+
+.main-content {
+  margin: auto;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* search form */
+.search-box {
+  margin: auto;
+  margin-top: 1em;
+  width: 35em;
+  padding: 0.4em 0;
+  border: 1px #ccc solid;
+  border-radius: 20px;
+  background-color: #fff;
+  text-align: initial;
+  transition: 0.3s;
+}
+
+.search-box:hover,
+.search-box:focus-within {
+  box-shadow: 0 4px 8px 0 rgba(172, 172, 172, 0.2),
+    0 6px 20px 0 rgba(145, 145, 145, 0.19);
+}
+
+.search-icon {
+  margin-left: 1em;
+  width: 1.3em;
+  padding-top: 7.2px;
+  padding-bottom: 2px;
+  color: #9aa0a6;
+  /* margin-top: 1.5em; */
+  position: absolute;
+  fill: currentColor;
+}
+
+#search {
+  width: 40.7em;
+  margin-left: 4.2em;
+  height: 2.8em;
+  border: none;
+  background-color: #fff;
+}
+
+.search-buttons {
+  margin-top: 3em;
+}
+
+.link-button {
+  background-color: #edf2f2;
+  color: #707070;
+  text-decoration: none;
+  padding: 0.6em 1em;
+  margin: 0.5em;
+  border: none;
+  font-size: 15px;
+  /* hover */
+}
+
+.link-button:hover,
+.link-button:focus {
+  border: solid 1px #bdbdbd;
+  color: #383838;
+  border-radius: 7px;
+  background-color: rgb(243, 243, 243);
+  cursor: pointer;
+}
+
+/* 
+#search:focus {
+  background-color: aqua;
+} */
+
+/* navbar */
+a {
+  text-decoration: none;
+  color: #383838;
+  font-size: 16px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+nav li {
+  display: inline-block;
+  padding: 1em 0.5em;
+}
+
+nav ul:first-child {
+  padding-left: 5px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.float-right {
+  float: right;
+}
+
+.menu {
+  background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+  background-position: -138px -45px;
+  width: 10px;
+  display: block;
+  width: 17px;
+  height: 17px;
+  opacity: 0.6;
+}
+
+.signin {
+  padding: 4.9px 8.9px;
+  background: #4285f4;
+  color: #fff;
+  font-weight: 300;
+  border: 1px solid #4285f4;
+}
+
+.signin:hover {
+  cursor: default;
+  text-decoration: none;
+}
+
+/* footer */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #edf2f2;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer li {
+  display: inline-block;
+}
+
+footer a {
+  display: inline-block;
+  padding: 1em 1em;
+}
+
+.first-a {
+  padding-left: 2em;
+}
